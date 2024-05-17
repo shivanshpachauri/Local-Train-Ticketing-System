@@ -1,0 +1,376 @@
+CRITICAL - 2024-02-17 18:45:41 --> Undefined variable $db
+in APPPATH\Controllers\Home.php on line 265.
+ 1 APPPATH\Controllers\Home.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Controllers\\Home.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->admindashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-17 18:55:23 --> Undefined array key "train_id"
+in APPPATH\Models\Book.php on line 82.
+ 1 APPPATH\Models\Book.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "train_id"', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Models\\Book.php', 82)
+ 2 APPPATH\Controllers\Home.php(276): App\Models\Book->addtrain([...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->admindashboard()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-17 18:56:10 --> Undefined array key "origin"
+in APPPATH\Models\Book.php on line 84.
+ 1 APPPATH\Models\Book.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "origin"', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Models\\Book.php', 84)
+ 2 APPPATH\Controllers\Home.php(276): App\Models\Book->addtrain([...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->admindashboard()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-17 18:56:24 --> Undefined array key "org"
+in APPPATH\Models\Book.php on line 84.
+ 1 APPPATH\Models\Book.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "org"', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Models\\Book.php', 84)
+ 2 APPPATH\Controllers\Home.php(276): App\Models\Book->addtrain([...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->admindashboard()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-17 19:03:07 --> Undefined property: stdClass::$route
+in APPPATH\Views\admindashboard.php on line 234.
+ 1 APPPATH\Views\admindashboard.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$route', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\admindashboard.php', 234)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\admindashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admindashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(285): view('admindashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->admindashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-17 19:03:33 --> Undefined property: stdClass::$org
+in APPPATH\Views\admindashboard.php on line 234.
+ 1 APPPATH\Views\admindashboard.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$org', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\admindashboard.php', 234)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\admindashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admindashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(285): view('admindashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->admindashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-17 19:03:46 --> Undefined property: stdClass::$action
+in APPPATH\Views\admindashboard.php on line 235.
+ 1 APPPATH\Views\admindashboard.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$action', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\admindashboard.php', 235)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\admindashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admindashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(285): view('admindashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->admindashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-17 19:09:10 --> Undefined array key "login_id"
+in APPPATH\Controllers\Home.php on line 191.
+ 1 APPPATH\Controllers\Home.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "login_id"', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Controllers\\Home.php', 191)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->ticket()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-17 19:36:08 --> Undefined property: stdClass::$org_time
+in APPPATH\Views\admindashboard.php on line 343.
+ 1 APPPATH\Views\admindashboard.php(343): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$org_time', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\admindashboard.php', 343)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\admindashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admindashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(306): view('admindashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->admindashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-17 19:36:39 --> Undefined property: stdClass::$org_time
+in APPPATH\Views\admindashboard.php on line 343.
+ 1 APPPATH\Views\admindashboard.php(343): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$org_time', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\admindashboard.php', 343)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\admindashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admindashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(306): view('admindashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->admindashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-17 19:36:47 --> Undefined property: stdClass::$org_time
+in APPPATH\Views\admindashboard.php on line 343.
+ 1 APPPATH\Views\admindashboard.php(343): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$org_time', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\admindashboard.php', 343)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\admindashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admindashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(306): view('admindashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->admindashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-17 19:41:43 --> syntax error, unexpected identifier "ublic", expecting "function" or "const"
+in APPPATH\Models\Book.php on line 98.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp3\\htdocs\\projectcdac\\app\\Models\\Book.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Book')
+ 3 APPPATH\Controllers\Home.php(291): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Book')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->admindashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-17 19:42:02 --> Undefined array key "name"
+in APPPATH\Models\Book.php on line 105.
+ 1 APPPATH\Models\Book.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Models\\Book.php', 105)
+ 2 APPPATH\Controllers\Home.php(292): App\Models\Book->updatetrain([...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->admindashboard()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-17 19:42:26 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in APPPATH\Models\Book.php on line 112.
+ 1 APPPATH\Controllers\Home.php(292): App\Models\Book->updatetrain([...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->admindashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-17 19:42:53 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::update()
+in APPPATH\Models\Book.php on line 115.
+ 1 APPPATH\Controllers\Home.php(292): App\Models\Book->updatetrain([...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->admindashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+ERROR - 2024-02-17 19:43:18 --> mysqli_sql_exception: Unknown column 'train' in 'field list' in C:\xampp3\htdocs\projectcdac\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp3\htdocs\projectcdac\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `train` ...', 0)
+#1 C:\xampp3\htdocs\projectcdac\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `train` ...')
+#2 C:\xampp3\htdocs\projectcdac\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `train` ...')
+#3 C:\xampp3\htdocs\projectcdac\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `train` ...', Array, false)
+#4 C:\xampp3\htdocs\projectcdac\app\Models\Book.php(112): CodeIgniter\Database\BaseBuilder->update('train', Array)
+#5 C:\xampp3\htdocs\projectcdac\app\Controllers\Home.php(292): App\Models\Book->updatetrain(Array)
+#6 C:\xampp3\htdocs\projectcdac\system\CodeIgniter.php(942): App\Controllers\Home->admindashboard()
+#7 C:\xampp3\htdocs\projectcdac\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp3\htdocs\projectcdac\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp3\htdocs\projectcdac\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp3\htdocs\projectcdac\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdoc...')
+#11 {main}
+CRITICAL - 2024-02-17 19:43:18 --> Unknown column 'train' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `train` SET `train` = :train:
+WHERE `Id` = :Id:
+AND `Id` = :Id.1:
+AND `name` = :name:
+AND `origin` = :origin:
+AND `dest` = :dest:
+AND `origin_time` = :origin_time:
+AND `dest_time` = :dest_time:', [...], false)
+ 2 APPPATH\Models\Book.php(112): CodeIgniter\Database\BaseBuilder->update('train', [...])
+ 3 APPPATH\Controllers\Home.php(292): App\Models\Book->updatetrain([...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->admindashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-17 19:47:40 --> Undefined variable $station
+in APPPATH\Views\modifyseat.php on line 3.
+ 1 APPPATH\Views\modifyseat.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $station', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\modifyseat.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\modifyseat.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('modifyseat', [], true)
+ 5 APPPATH\Controllers\Home.php(311): view('modifyseat')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->modifyseat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-17 19:57:54 --> Undefined array key "logout"
+in APPPATH\Controllers\Home.php on line 76.
+ 1 APPPATH\Controllers\Home.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "logout"', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Controllers\\Home.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+ERROR - 2024-02-17 20:03:06 --> mysqli_sql_exception: Unknown column 'logout' in 'where clause' in C:\xampp3\htdocs\projectcdac\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp3\htdocs\projectcdac\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp3\htdocs\projectcdac\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp3\htdocs\projectcdac\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp3\htdocs\projectcdac\system\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp3\htdocs\projectcdac\app\Controllers\Home.php(233): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp3\htdocs\projectcdac\system\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+#6 C:\xampp3\htdocs\projectcdac\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp3\htdocs\projectcdac\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp3\htdocs\projectcdac\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp3\htdocs\projectcdac\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdoc...')
+#10 {main}
+CRITICAL - 2024-02-17 20:03:06 --> Unknown column 'logout' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `admin`
+WHERE `logout` = :logout:', [...], false)
+ 2 APPPATH\Controllers\Home.php(233): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+ERROR - 2024-02-17 20:04:26 --> mysqli_sql_exception: Unknown column 'logout' in 'where clause' in C:\xampp3\htdocs\projectcdac\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp3\htdocs\projectcdac\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp3\htdocs\projectcdac\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp3\htdocs\projectcdac\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp3\htdocs\projectcdac\system\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp3\htdocs\projectcdac\app\Controllers\Home.php(233): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp3\htdocs\projectcdac\system\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+#6 C:\xampp3\htdocs\projectcdac\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp3\htdocs\projectcdac\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp3\htdocs\projectcdac\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp3\htdocs\projectcdac\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdoc...')
+#10 {main}
+CRITICAL - 2024-02-17 20:04:26 --> Unknown column 'logout' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `admin`
+WHERE `logout` = :logout:', [...], false)
+ 2 APPPATH\Controllers\Home.php(233): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+ERROR - 2024-02-17 20:05:13 --> mysqli_sql_exception: Unknown column 'logout' in 'where clause' in C:\xampp3\htdocs\projectcdac\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp3\htdocs\projectcdac\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp3\htdocs\projectcdac\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp3\htdocs\projectcdac\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp3\htdocs\projectcdac\system\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp3\htdocs\projectcdac\app\Controllers\Home.php(233): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp3\htdocs\projectcdac\system\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+#6 C:\xampp3\htdocs\projectcdac\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp3\htdocs\projectcdac\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp3\htdocs\projectcdac\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp3\htdocs\projectcdac\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdoc...')
+#10 {main}
+CRITICAL - 2024-02-17 20:05:13 --> Unknown column 'logout' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `admin`
+WHERE `logout` = :logout:', [...], false)
+ 2 APPPATH\Controllers\Home.php(233): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+ERROR - 2024-02-17 20:06:17 --> mysqli_sql_exception: Unknown column 'logout' in 'where clause' in C:\xampp3\htdocs\projectcdac\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp3\htdocs\projectcdac\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp3\htdocs\projectcdac\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp3\htdocs\projectcdac\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp3\htdocs\projectcdac\system\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp3\htdocs\projectcdac\app\Controllers\Home.php(233): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp3\htdocs\projectcdac\system\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+#6 C:\xampp3\htdocs\projectcdac\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp3\htdocs\projectcdac\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp3\htdocs\projectcdac\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp3\htdocs\projectcdac\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdoc...')
+#10 {main}
+CRITICAL - 2024-02-17 20:06:17 --> Unknown column 'logout' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `admin`
+WHERE `logout` = :logout:', [...], false)
+ 2 APPPATH\Controllers\Home.php(233): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+ERROR - 2024-02-17 20:07:10 --> mysqli_sql_exception: Unknown column 'logout' in 'where clause' in C:\xampp3\htdocs\projectcdac\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp3\htdocs\projectcdac\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp3\htdocs\projectcdac\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp3\htdocs\projectcdac\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp3\htdocs\projectcdac\system\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp3\htdocs\projectcdac\app\Controllers\Home.php(233): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp3\htdocs\projectcdac\system\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+#6 C:\xampp3\htdocs\projectcdac\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp3\htdocs\projectcdac\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp3\htdocs\projectcdac\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp3\htdocs\projectcdac\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdoc...')
+#10 {main}
+CRITICAL - 2024-02-17 20:07:10 --> Unknown column 'logout' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `admin`
+WHERE `logout` = :logout:', [...], false)
+ 2 APPPATH\Controllers\Home.php(233): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-17 20:12:22 --> Undefined array key "logout"
+in APPPATH\Controllers\Home.php on line 76.
+ 1 APPPATH\Controllers\Home.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "logout"', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Controllers\\Home.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-17 20:41:33 --> Undefined variable $record
+in APPPATH\Views\profile.php on line 2.
+ 1 APPPATH\Views\profile.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\profile.php', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\profile.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('profile', [], true)
+ 5 APPPATH\Controllers\Home.php(228): view('profile')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-17 20:42:55 --> Attempt to read property "name" on array
+in APPPATH\Views\profile.php on line 69.
+ 1 APPPATH\Views\profile.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on array', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\profile.php', 69)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\profile.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('profile', [], true)
+ 5 APPPATH\Controllers\Home.php(228): view('profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-17 20:43:16 --> Undefined array key "name"
+in APPPATH\Views\profile.php on line 69.
+ 1 APPPATH\Views\profile.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\profile.php', 69)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\profile.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('profile', [], true)
+ 5 APPPATH\Controllers\Home.php(228): view('profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-17 20:43:23 --> Cannot use object of type stdClass as array
+in APPPATH\Views\profile.php on line 69.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('profile', [], true)
+ 4 APPPATH\Controllers\Home.php(228): view('profile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->profile()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')

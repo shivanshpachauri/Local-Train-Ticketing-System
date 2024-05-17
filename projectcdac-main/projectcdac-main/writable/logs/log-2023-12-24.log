@@ -1,0 +1,10 @@
+CRITICAL - 2023-12-24 05:27:19 --> Invalid file: "ticketfare.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ticketfare.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('ticketfare', [], true)
+ 3 APPPATH\Controllers\Home.php(43): view('ticketfare')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->ticketfare()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')

@@ -1,0 +1,133 @@
+CRITICAL - 2024-02-16 09:19:29 --> Undefined variable $db
+in APPPATH\Models\Book.php on line 40.
+ 1 APPPATH\Models\Book.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Models\\Book.php', 40)
+ 2 APPPATH\Controllers\Home.php(169): App\Models\Book->booking([...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->booktrain()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-16 09:19:55 --> Undefined array key "train_id"
+in APPPATH\Views\booktrain.php on line 157.
+ 1 APPPATH\Views\booktrain.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "train_id"', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\booktrain.php', 157)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\booktrain.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('booktrain', [], true)
+ 5 APPPATH\Controllers\Home.php(162): view('booktrain', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->booktrain()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-16 09:20:35 --> Undefined array key "train_id"
+in APPPATH\Views\booktrain.php on line 157.
+ 1 APPPATH\Views\booktrain.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "train_id"', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\booktrain.php', 157)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\booktrain.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('booktrain', [], true)
+ 5 APPPATH\Controllers\Home.php(162): view('booktrain', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->booktrain()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-16 09:22:21 --> Undefined array key "train_id"
+in APPPATH\Views\booktrain.php on line 157.
+ 1 APPPATH\Views\booktrain.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "train_id"', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\booktrain.php', 157)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\booktrain.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('booktrain', [], true)
+ 5 APPPATH\Controllers\Home.php(162): view('booktrain', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->booktrain()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-16 09:22:30 --> syntax error, unexpected identifier "you"
+in APPPATH\Models\Book.php on line 45.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp3\\htdocs\\projectcdac\\app\\Models\\Book.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Book')
+ 3 APPPATH\Controllers\Home.php(168): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Book')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->booktrain()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-16 09:22:42 --> Trying to access array offset on value of type int
+in APPPATH\Models\Book.php on line 48.
+ 1 APPPATH\Models\Book.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Models\\Book.php', 48)
+ 2 APPPATH\Controllers\Home.php(169): App\Models\Book->booking([...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->booktrain()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-16 09:23:39 --> Undefined array key "train_id"
+in APPPATH\Views\booktrain.php on line 157.
+ 1 APPPATH\Views\booktrain.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "train_id"', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\booktrain.php', 157)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\booktrain.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('booktrain', [], true)
+ 5 APPPATH\Controllers\Home.php(162): view('booktrain', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->booktrain()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-16 09:23:46 --> Cannot use object of type stdClass as array
+in APPPATH\Models\Book.php on line 49.
+ 1 APPPATH\Controllers\Home.php(169): App\Models\Book->booking([...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->booktrain()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-16 09:25:59 --> syntax error, unexpected token "->", expecting identifier or variable or "{" or "$"
+in APPPATH\Models\Book.php on line 50.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp3\\htdocs\\projectcdac\\app\\Models\\Book.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Book')
+ 3 APPPATH\Controllers\Home.php(168): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Book')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->booktrain()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-16 09:41:13 --> syntax error, unexpected single-quoted string "seat_no", expecting "]"
+in APPPATH\Models\Book.php on line 56.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp3\\htdocs\\projectcdac\\app\\Models\\Book.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Book')
+ 3 APPPATH\Controllers\Home.php(168): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Book')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->booktrain()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-16 09:47:48 --> Undefined array key "seat"
+in APPPATH\Models\Book.php on line 27.
+ 1 APPPATH\Models\Book.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "seat"', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Models\\Book.php', 27)
+ 2 APPPATH\Controllers\Home.php(169): App\Models\Book->booking([...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->booktrain()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-16 10:40:42 --> Undefined variable $station
+in APPPATH\Views\admindashboard.php on line 3.
+ 1 APPPATH\Views\admindashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $station', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\admindashboard.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\admindashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admindashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(264): view('admindashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->admindashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-16 10:48:40 --> Undefined array key "login_id"
+in APPPATH\Controllers\Home.php on line 191.
+ 1 APPPATH\Controllers\Home.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "login_id"', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Controllers\\Home.php', 191)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->ticket()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')

@@ -1,0 +1,482 @@
+CRITICAL - 2023-12-28 16:04:46 --> App\Controllers\Home::login(): Return value must be of type string, none returned
+in APPPATH\Controllers\Home.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 16:04:46 --> App\Controllers\Home::login(): Return value must be of type string, none returned
+in APPPATH\Controllers\Home.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 16:05:03 --> App\Controllers\Home::login(): Return value must be of type string, none returned
+in APPPATH\Controllers\Home.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 16:15:29 --> syntax error, unexpected token "return", expecting "function" or "const"
+in APPPATH\Models\Book.php on line 39.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\app\\Models\\Book.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Book')
+ 3 APPPATH\Controllers\Home.php(37): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Book')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 16:15:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in APPPATH\Models\Book.php on line 26.
+ 1 APPPATH\Controllers\Home.php(38): App\Models\Book->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 16:18:50 --> syntax error, unexpected token "->", expecting identifier or variable or "{" or "$"
+in APPPATH\Models\Book.php on line 26.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\app\\Models\\Book.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Book')
+ 3 APPPATH\Controllers\Home.php(37): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Book')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 16:19:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::countAllResults()
+in APPPATH\Models\Book.php on line 27.
+ 1 APPPATH\Controllers\Home.php(38): App\Models\Book->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 16:26:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::last_query()
+in APPPATH\Models\Book.php on line 28.
+ 1 APPPATH\Controllers\Home.php(38): App\Models\Book->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 16:26:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::last_query()
+in APPPATH\Models\Book.php on line 28.
+ 1 APPPATH\Controllers\Home.php(38): App\Models\Book->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 16:27:15 --> Undefined variable $rows
+in APPPATH\Models\Book.php on line 30.
+ 1 APPPATH\Models\Book.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rows', 'C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\app\\Models\\Book.php', 30)
+ 2 APPPATH\Controllers\Home.php(38): App\Models\Book->login([...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 16:34:29 --> Call to undefined function App\Models\http_redirect()
+in APPPATH\Models\Book.php on line 31.
+ 1 APPPATH\Controllers\Home.php(38): App\Models\Book->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 16:38:15 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+in APPPATH\Models\Book.php on line 31.
+ 1 APPPATH\Controllers\Home.php(38): App\Models\Book->login([...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 16:41:25 --> syntax error, unexpected token "function", expecting variable
+in APPPATH\Models\Book.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\app\\Models\\Book.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Book')
+ 3 APPPATH\Controllers\Home.php(37): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Book')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 16:47:34 --> Undefined property: App\Controllers\Home::$db
+in APPPATH\Controllers\Home.php on line 39.
+ 1 APPPATH\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$db', 'C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\app\\Controllers\\Home.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 16:49:07 --> Call to a member function table() on null
+in APPPATH\Controllers\Home.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 16:49:35 --> syntax error, unexpected variable "$db", expecting "function" or "const"
+in APPPATH\Controllers\Home.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 16:49:44 --> syntax error, unexpected variable "$db"
+in APPPATH\Controllers\Home.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 16:49:53 --> syntax error, unexpected variable "$db"
+in APPPATH\Controllers\Home.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 16:50:12 --> Constant expression contains invalid operations
+in APPPATH\Controllers\Home.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-28 16:50:33 --> Undefined property: App\Controllers\Home::$db
+in APPPATH\Controllers\Home.php on line 40.
+ 1 APPPATH\Controllers\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$db', 'C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\app\\Controllers\\Home.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 16:51:23 --> Undefined property: App\Controllers\Home::$db
+in APPPATH\Controllers\Home.php on line 41.
+ 1 APPPATH\Controllers\Home.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$db', 'C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\app\\Controllers\\Home.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+ERROR - 2023-12-28 16:51:41 --> mysqli_sql_exception: Unknown column 'main_content' in 'where clause' in C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\app\Controllers\Home.php(41): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\CodeIgniter.php(942): App\Controllers\Home->login()
+#6 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdoc...')
+#10 {main}
+CRITICAL - 2023-12-28 16:51:42 --> Unknown column 'main_content' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pass_det`
+WHERE `main_content` = :main_content:', [...], false)
+ 2 APPPATH\Controllers\Home.php(41): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+ERROR - 2023-12-28 16:59:53 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\app\Controllers\Home.php(100): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+#6 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdoc...')
+#10 {main}
+CRITICAL - 2023-12-28 16:59:53 --> Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `admin`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 2 APPPATH\Controllers\Home.php(100): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+ERROR - 2023-12-28 17:00:32 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\app\Controllers\Home.php(100): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+#6 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdoc...')
+#10 {main}
+CRITICAL - 2023-12-28 17:00:33 --> Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `admin`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 2 APPPATH\Controllers\Home.php(100): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 17:06:02 --> App\Controllers\Home::adminlogin(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Controllers\Home.php on line 106.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 17:06:40 --> App\Controllers\Home::adminlogin(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Controllers\Home.php on line 106.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 17:09:28 --> Undefined global variable $_SESSION
+in APPPATH\Views\dashboard.php on line 3.
+ 1 APPPATH\Views\dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\app\\Views\\dashboard.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 17:10:01 --> ini_set(): Session ini settings cannot be changed when a session is active
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed when a session is active', 'C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\system\\Session\\Handlers\\FileHandler.php', 72)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(72): ini_set('session.save_path', 'C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(686): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\Session), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 5 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(664): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\Common.php(996): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 SYSTEMPATH\CodeIgniter.php(1069): session()
+10 SYSTEMPATH\CodeIgniter.php(549): CodeIgniter\CodeIgniter->storePreviousURL(Object(CodeIgniter\HTTP\SiteURI))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 17:11:34 --> ini_set(): Session ini settings cannot be changed when a session is active
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed when a session is active', 'C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\system\\Session\\Handlers\\FileHandler.php', 72)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(72): ini_set('session.save_path', 'C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(686): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\Session), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 5 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(664): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\Common.php(996): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 SYSTEMPATH\CodeIgniter.php(1069): session()
+10 SYSTEMPATH\CodeIgniter.php(549): CodeIgniter\CodeIgniter->storePreviousURL(Object(CodeIgniter\HTTP\SiteURI))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 17:14:01 --> ini_set(): Session ini settings cannot be changed when a session is active
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed when a session is active', 'C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\system\\Session\\Handlers\\FileHandler.php', 72)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(72): ini_set('session.save_path', 'C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(686): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\Session), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 5 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(664): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\Common.php(996): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 SYSTEMPATH\CodeIgniter.php(1069): session()
+10 SYSTEMPATH\CodeIgniter.php(549): CodeIgniter\CodeIgniter->storePreviousURL(Object(CodeIgniter\HTTP\SiteURI))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 17:15:49 --> Undefined array key "id"
+in APPPATH\Controllers\Home.php on line 109.
+ 1 APPPATH\Controllers\Home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\app\\Controllers\\Home.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 17:16:13 --> Trying to access array offset on value of type int
+in APPPATH\Controllers\Home.php on line 109.
+ 1 APPPATH\Controllers\Home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\app\\Controllers\\Home.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 17:17:52 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getFirstRow()
+in APPPATH\Controllers\Home.php on line 106.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 17:18:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH\Controllers\Home.php on line 106.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 17:20:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH\Controllers\Home.php on line 106.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 17:21:24 --> Undefined variable $f_rows
+in APPPATH\Controllers\Home.php on line 112.
+ 1 APPPATH\Controllers\Home.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $f_rows', 'C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\app\\Controllers\\Home.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 17:21:35 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+in APPPATH\Controllers\Home.php on line 112.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 17:24:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getresult()
+in APPPATH\Controllers\Home.php on line 110.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 17:24:44 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Controllers\Home.php on line 110.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 17:25:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getFirstRow()
+in APPPATH\Controllers\Home.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 17:30:40 --> Undefined variable $builder
+in APPPATH\Controllers\Home.php on line 114.
+ 1 APPPATH\Controllers\Home.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $builder', 'C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\app\\Controllers\\Home.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 17:30:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Controllers\Home.php on line 115.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 17:31:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Controllers\Home.php on line 115.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 17:32:45 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Home.php on line 119.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 17:33:17 --> Undefined array key "id"
+in APPPATH\Controllers\Home.php on line 119.
+ 1 APPPATH\Controllers\Home.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\app\\Controllers\\Home.php', 119)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 17:34:00 --> Undefined array key "id"
+in APPPATH\Controllers\Home.php on line 116.
+ 1 APPPATH\Controllers\Home.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\app\\Controllers\\Home.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 17:34:13 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Home.php on line 116.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 17:35:22 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Home.php on line 116.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+ERROR - 2023-12-28 17:38:10 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\app\Controllers\Home.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\CodeIgniter.php(942): App\Controllers\Home->login()
+#6 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp3\htdocs\projectcdac\projectcdac\projectcdac\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdoc...')
+#10 {main}
+CRITICAL - 2023-12-28 17:38:10 --> Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:
+AND `password` = :password:
+ LIMIT 1', [...], false)
+ 2 APPPATH\Controllers\Home.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')
+CRITICAL - 2023-12-28 17:38:29 --> App\Controllers\Home::login(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Controllers\Home.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\projectcdac\\projectcdac\\public\\index.php')

@@ -1,0 +1,38 @@
+ERROR - 2024-02-09 05:57:43 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp3\htdocs\projectcdac\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp3\htdocs\projectcdac\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'cdac', 3306, '', 0)
+#1 C:\xampp3\htdocs\projectcdac\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp3\htdocs\projectcdac\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp3\htdocs\projectcdac\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp3\htdocs\projectcdac\app\Controllers\Home.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp3\htdocs\projectcdac\system\CodeIgniter.php(942): App\Controllers\Home->dashboard()
+#6 C:\xampp3\htdocs\projectcdac\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp3\htdocs\projectcdac\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp3\htdocs\projectcdac\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp3\htdocs\projectcdac\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdoc...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp3\htdocs\projectcdac\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp3\htdocs\projectcdac\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp3\htdocs\projectcdac\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp3\htdocs\projectcdac\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp3\htdocs\projectcdac\app\Controllers\Home.php(34): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp3\htdocs\projectcdac\system\CodeIgniter.php(942): App\Controllers\Home->dashboard()
+#5 C:\xampp3\htdocs\projectcdac\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp3\htdocs\projectcdac\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp3\htdocs\projectcdac\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp3\htdocs\projectcdac\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdoc...')
+#9 {main}
+CRITICAL - 2024-02-09 05:57:43 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `train`', [], false)
+ 3 APPPATH\Controllers\Home.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')

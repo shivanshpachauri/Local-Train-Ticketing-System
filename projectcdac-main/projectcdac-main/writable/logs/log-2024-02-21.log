@@ -1,0 +1,16 @@
+CRITICAL - 2024-02-21 10:14:09 --> Undefined array key "logout"
+in APPPATH\Controllers\Home.php on line 75.
+ 1 APPPATH\Controllers\Home.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "logout"', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Controllers\\Home.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-21 10:32:07 --> Undefined array key "logout"
+in APPPATH\Controllers\Home.php on line 75.
+ 1 APPPATH\Controllers\Home.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "logout"', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Controllers\\Home.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')

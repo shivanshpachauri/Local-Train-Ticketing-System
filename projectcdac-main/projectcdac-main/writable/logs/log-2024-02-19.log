@@ -1,0 +1,132 @@
+CRITICAL - 2024-02-19 11:04:47 --> Undefined array key "fare"
+in APPPATH\Views\booktrain.php on line 207.
+ 1 APPPATH\Views\booktrain.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fare"', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\booktrain.php', 207)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\booktrain.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('booktrain', [], true)
+ 5 APPPATH\Controllers\Home.php(162): view('booktrain', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->booktrain()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-19 11:26:29 --> Undefined array key "pass"
+in APPPATH\Models\Book.php on line 12.
+ 1 APPPATH\Models\Book.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pass"', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Models\\Book.php', 12)
+ 2 APPPATH\Controllers\Home.php(133): App\Models\Book->reg([...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->registration()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+ERROR - 2024-02-19 11:27:39 --> mysqli_sql_exception: Unknown column 'pass' in 'field list' in C:\xampp3\htdocs\projectcdac\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp3\htdocs\projectcdac\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\xampp3\htdocs\projectcdac\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp3\htdocs\projectcdac\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp3\htdocs\projectcdac\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp3\htdocs\projectcdac\app\Models\Book.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp3\htdocs\projectcdac\app\Controllers\Home.php(133): App\Models\Book->reg(Array)
+#6 C:\xampp3\htdocs\projectcdac\system\CodeIgniter.php(942): App\Controllers\Home->registration()
+#7 C:\xampp3\htdocs\projectcdac\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp3\htdocs\projectcdac\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp3\htdocs\projectcdac\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp3\htdocs\projectcdac\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdoc...')
+#11 {main}
+CRITICAL - 2024-02-19 11:27:39 --> Unknown column 'pass' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pass_det` (`name`, `email`, `phone`, `password`, `pass`) VALUES (:name:, :email:, :phone:, :password:, :pass:)', [...], false)
+ 2 APPPATH\Models\Book.php(16): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(133): App\Models\Book->reg([...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->registration()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-19 12:00:21 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\modifyfare.php on line 171.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('modifyfare', [], true)
+ 4 APPPATH\Controllers\Home.php(392): view('modifyfare')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->modifyfare()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-19 12:01:41 --> Undefined variable $station
+in APPPATH\Views\modifyfare.php on line 2.
+ 1 APPPATH\Views\modifyfare.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $station', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\modifyfare.php', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\modifyfare.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('modifyfare', [], true)
+ 5 APPPATH\Controllers\Home.php(398): view('modifyfare')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->modifyfare()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-19 12:06:24 --> Undefined variable $startValue
+in APPPATH\Views\modifyfare.php on line 172.
+ 1 APPPATH\Views\modifyfare.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $startValue', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\modifyfare.php', 172)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\modifyfare.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('modifyfare', [], true)
+ 5 APPPATH\Controllers\Home.php(406): view('modifyfare', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->modifyfare()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-19 13:18:38 --> Undefined array key "fare"
+in APPPATH\Views\booktrain.php on line 207.
+ 1 APPPATH\Views\booktrain.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fare"', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\booktrain.php', 207)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\booktrain.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('booktrain', [], true)
+ 5 APPPATH\Controllers\Home.php(172): view('booktrain', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->booktrain()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-19 16:57:50 --> Undefined array key "logout"
+in APPPATH\Controllers\Home.php on line 75.
+ 1 APPPATH\Controllers\Home.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "logout"', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Controllers\\Home.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-19 16:57:55 --> Undefined array key "logout"
+in APPPATH\Controllers\Home.php on line 75.
+ 1 APPPATH\Controllers\Home.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "logout"', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Controllers\\Home.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-19 17:19:46 --> Undefined property: stdClass::$date_j
+in APPPATH\Views\dashboard.php on line 323.
+ 1 APPPATH\Views\dashboard.php(323): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$date_j', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\dashboard.php', 323)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(83): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
+CRITICAL - 2024-02-19 17:33:55 --> Undefined array key "5:20"
+in APPPATH\Views\dashboard.php on line 308.
+ 1 APPPATH\Views\dashboard.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "5:20"', 'C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\dashboard.php', 308)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp3\\htdocs\\projectcdac\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(83): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp3\\htdocs\\projectcdac\\public\\index.php')
